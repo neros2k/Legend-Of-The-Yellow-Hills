@@ -1,8 +1,13 @@
 package n2k_.lotyh.item.config;
 import n2k_.lotyh.core.IPatternDecorator;
 import n2k_.lotyh.core.IPropertyDecorator;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 public enum PatternDecorator implements IPatternDecorator {
+    TAB("", (properties, arg) -> {
+        properties.tab(CreativeModeTab.TAB_MATERIALS);
+        System.out.println(arg);
+    })
 
     ;
 
@@ -25,7 +30,7 @@ public enum PatternDecorator implements IPatternDecorator {
     }
 
     @Override
-    public Item.Properties decorate(Item.Properties properties, String arg) {
-        return this.PROPERTY_DECORATOR.decorate(properties, arg);
+    public void decorate(Item.Properties properties, String arg) {
+        this.PROPERTY_DECORATOR.decorate(properties, arg);
     }
 }
