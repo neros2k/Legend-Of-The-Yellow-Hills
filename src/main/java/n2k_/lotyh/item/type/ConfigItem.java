@@ -1,26 +1,15 @@
 package n2k_.lotyh.item.type;
 import net.minecraft.world.item.Item;
-public class ConfigItem {
-    private ItemAdapter ITEM;
-    private final String ITEM_ID;
-
-    public ConfigItem(String itemId) {
-        this.ITEM_ID = itemId;
+public class ConfigItem extends BaseItem {
+    public ConfigItem(String itemId, String[] configPattern) {
+        super(itemId, new Item(ConfigItem.getProperties(itemId, configPattern)));
     }
 
-    public void createItem(Item.Properties properties) {
-        this.ITEM = new ItemAdapter(properties);
+    public static Item.Properties getProperties(String itemId, String[] configPattern) {
+        return new Item.Properties();
     }
 
-    public String getConfigParameter(String parameter) {
+    public static String getConfigProperty(String itemId, String parameter) {
         return "";
-    }
-
-    public ItemAdapter getItem() {
-        return this.ITEM;
-    }
-
-    public String getItemId() {
-        return this.ITEM_ID;
     }
 }
