@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Legend-Of-The-Yellow-Hills resources",
-                "pack_format": 8
-            }
+        "description": "Description.",
+        "pack_format": 7
+    }
 }
