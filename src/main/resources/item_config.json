@@ -1,1 +1,6 @@
-{}
+{
+  "telder_steel_ingot.tab": "material_tab",
+  "ethril_steel_ingot.tab": "material_tab",
+  "telder_steel_nugget.tab": "material_tab",
+  "ethril_nugget.tab": "material_tab"
+}
