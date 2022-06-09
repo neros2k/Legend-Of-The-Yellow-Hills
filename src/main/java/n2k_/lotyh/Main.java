@@ -11,7 +11,7 @@ public final class Main {
 
     public Main() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ItemRegister.getItemDeferredRegister().register(eventBus);
+        ItemRegister.getDeferredRegister().register(eventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
