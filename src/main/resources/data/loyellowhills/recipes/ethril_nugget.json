@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "loyellowhills:ethril_ingot"
+    }
+  ],
+  "result": {
+    "item": "loyellowhills:ethril_nugget",
+    "count": 9
+  }
+}

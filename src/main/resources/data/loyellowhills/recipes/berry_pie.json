@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "FIF",
+    "JJJ"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:sweet_berries"
+    },
+    "I": {
+      "item": "minecraft:egg"
+    },
+    "F": {
+      "item": "minecraft:sugar"
+    },
+    "J": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:berry_pie",
+    "count": 1
+  }
+}

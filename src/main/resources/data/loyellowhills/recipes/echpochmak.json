@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    " I ",
+    "TJT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:wheat"
+    },
+    "I": {
+      "item": "minecraft:cooked_beef"
+    },
+    "J": {
+      "item": "minecraft:baked_potato"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:echpochmak",
+    "count": 3
+  }
+}

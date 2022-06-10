@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "loyellowhills:telder_steel_nugget"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:telder_steel_ingot",
+    "count": 1
+  }
+}
