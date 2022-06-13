@@ -1,12 +1,28 @@
 package n2k_.lotyh.item;
 import n2k_.lotyh.Main;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
 import java.util.function.Supplier;
 public enum ItemRegister {
+    ///////////////////////////////////////////////////////////////////////////
+    // Инструменты
+    ///////////////////////////////////////////////////////////////////////////
+    telder_steel_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
+    telder_steel_battle_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
+    telder_steel_sword(() -> new SwordItem(null, 0, 0, new Item.Properties())),
+    telder_steel_axe(() -> new AxeItem(null, 0, 0, new Item.Properties())),
+    telder_steel_shovel(() -> new ShovelItem(null, 0, 0, new Item.Properties())),
+    telder_steel_hoe(() -> new HoeItem(null, 0, 0, new Item.Properties())),
+    /* ------------------------- */
+    ethril_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
+    ethril_battle_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
+    ethril_sword(() -> new SwordItem(null, 0, 0, new Item.Properties())),
+    ethril_axe(() -> new AxeItem(null, 0, 0, new Item.Properties())),
+    ethril_shovel(() -> new ShovelItem(null, 0, 0, new Item.Properties())),
+    ethril_hoe(() -> new HoeItem(null, 0, 0, new Item.Properties())),
     ///////////////////////////////////////////////////////////////////////////
     // Материалы
     ///////////////////////////////////////////////////////////////////////////
