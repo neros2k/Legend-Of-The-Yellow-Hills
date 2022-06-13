@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "loyellowhills:ethril_nugget"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:ethril_ingot",
+    "count": 1
+  }
+}
