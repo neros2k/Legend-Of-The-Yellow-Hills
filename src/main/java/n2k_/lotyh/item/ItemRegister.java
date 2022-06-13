@@ -52,11 +52,9 @@ public enum ItemRegister {
     /* ------------------------- */
     peach_jam(() -> new Item(new Item.Properties())),
     berry_jam(() -> new Item(new Item.Properties())),
-    lightberry_jam(() -> new Item(new Item.Properties())),
     /* ------------------------- */
     peach_pie(() -> new Item(new Item.Properties())),
     berry_pie(() -> new Item(new Item.Properties())),
-    lightberry_pie(() -> new Item(new Item.Properties())),
     ///////////////////////////////////////////////////////////////////////////
     // Прочие предметы мода
     ///////////////////////////////////////////////////////////////////////////
