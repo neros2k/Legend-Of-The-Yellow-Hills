@@ -62,7 +62,11 @@ public enum ItemRegister {
     }
 
     public Supplier<? extends Item> getSupplier() {
-        return SUPPLIER;
+        return this.SUPPLIER;
+    }
+
+    public Item getItem() {
+        return this.SUPPLIER.get();
     }
 
     public RegistryObject<Item> getRegistryObject() {
