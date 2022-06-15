@@ -2,5 +2,40 @@
   "item.loyellowhills.telder_steel_ingot": "Телдер-стальной слиток",
   "item.loyellowhills.ethril_ingot": "Эфриловый слиток",
   "item.loyellowhills.telder_steel_nugget": "Кусочек телдер-стали",
-  "item.loyellowhills.ethril_nugget": "Кусочек эфрила"
+  "item.loyellowhills.ethril_nugget": "Кусочек эфрила",
+
+  "item.loyellowhills.heavenly_shard": "Небесный осколок",
+  "item.loyellowhills.terrestrial_shard": "Земельный осколок",
+  "item.loyellowhills.aquatic_shard": "Водный осколок",
+  "item.loyellowhills.deep_shard": "Глубинный осколок",
+  "item.loyellowhills.distortion_shard": "Искаженный осколок",
+
+  "item.loyellowhills.singularity_stone": "Камень сингулярности",
+  "item.loyellowhills.reality_stone": "Камень реальности",
+  "item.loyellowhills.soul_stone": "Камень душ",
+
+  "item.loyellowhills.ether_silk": "Эфирный шелк",
+  "item.loyellowhills.etheroscope": "Эфироскоп",
+
+  "item.loyellowhills.peach": "Персик",
+  "item.loyellowhills.echpochmak": "Эчпочмак",
+  "item.loyellowhills.golden_echpochmak": "Золотой эчпочмак",
+  "item.loyellowhills.peach_jam": "Персиковое варенье",
+  "item.loyellowhills.berry_jam": "Ягодное варенье",
+  "item.loyellowhills.peach_pie": "Персиковый пирог",
+  "item.loyellowhills.berry_pie": "Ягодный пирог",
+
+  "item.loyellowhills.telder_steel_pickaxe": "Телдер-стальная кирка",
+  "item.loyellowhills.telder_steel_battle_pickaxe": "Телдер-стальное кайло",
+  "item.loyellowhills.telder_steel_sword": "Телдер-стальной меч",
+  "item.loyellowhills.telder_steel_axe": "Телдер-стальной топор",
+  "item.loyellowhills.telder_steel_shovel": "Телдер-стальная лопата",
+  "item.loyellowhills.telder_steel_hoe": "Телдер-стальная мотыга",
+
+  "item.loyellowhills.ethril_pickaxe": "Эфриловая кирка",
+  "item.loyellowhills.ethril_battle_pickaxe": "Эфриловое кайло",
+  "item.loyellowhills.ethril_sword": "Эфриловый меч",
+  "item.loyellowhills.ethril_axe": "Эфриловый топор",
+  "item.loyellowhills.ethril_shovel": "Эфриловая лопата",
+  "item.loyellowhills.ethril_hoe": "Эфриловая мотыга"
 }
