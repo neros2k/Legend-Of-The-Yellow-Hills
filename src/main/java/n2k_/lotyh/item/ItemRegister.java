@@ -1,5 +1,6 @@
 package n2k_.lotyh.item;
 import n2k_.lotyh.Main;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -46,15 +47,12 @@ public enum ItemRegister {
     ///////////////////////////////////////////////////////////////////////////
     // Еда
     ///////////////////////////////////////////////////////////////////////////
-    peach(() -> new Item(new Item.Properties())),
-    echpochmak(() -> new Item(new Item.Properties())),
-    golden_echpochmak(() -> new Item(new Item.Properties())),
+    peach(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(3).build()))),
+    echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).build()))),
+    golden_echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).build()))),
     /* ------------------------- */
-    peach_jam(() -> new Item(new Item.Properties())),
-    berry_jam(() -> new Item(new Item.Properties())),
-    /* ------------------------- */
-    peach_pie(() -> new Item(new Item.Properties())),
-    berry_pie(() -> new Item(new Item.Properties())),
+    peach_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(9).build()))),
+    berry_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).build()))),
     ///////////////////////////////////////////////////////////////////////////
     // Прочие предметы мода
     ///////////////////////////////////////////////////////////////////////////
