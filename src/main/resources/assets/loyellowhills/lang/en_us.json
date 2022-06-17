@@ -2,5 +2,40 @@
   "item.loyellowhills.telder_steel_ingot": "Telder-Steel Ingot",
   "item.loyellowhills.ethril_ingot": "Ethril Ingot",
   "item.loyellowhills.telder_steel_nugget": "Telder-Steel Nugget",
-  "item.loyellowhills.ethril_nugget": "Ethril Nugget"
+  "item.loyellowhills.ethril_nugget": "Ethril Nugget",
+
+  "item.loyellowhills.heavenly_shard": "Heavenly Shard",
+  "item.loyellowhills.terrestrial_shard": "Terrestrial Shard",
+  "item.loyellowhills.aquatic_shard": "Aquatic Shard",
+  "item.loyellowhills.deep_shard": "Deep Shard",
+  "item.loyellowhills.distortion_shard": "Distortion Shard",
+
+  "item.loyellowhills.singularity_stone": "Singularity Stone",
+  "item.loyellowhills.reality_stone": "Reality Stone",
+  "item.loyellowhills.soul_stone": "Soul Stone",
+
+  "item.loyellowhills.ether_silk": "Ether Silk",
+  "item.loyellowhills.etheroscope": "Etheroscope",
+
+  "item.loyellowhills.peach": "Peach",
+  "item.loyellowhills.echpochmak": "Echpochmak",
+  "item.loyellowhills.golden_echpochmak": "Golden Echpochmak",
+  "item.loyellowhills.peach_jam": "Peach Jam",
+  "item.loyellowhills.berry_jam": "Berry Jam",
+  "item.loyellowhills.peach_pie": "Peach Pie",
+  "item.loyellowhills.berry_pie": "Berry Pie",
+
+  "item.loyellowhills.telder_steel_pickaxe": "Telder Steel Pickaxe",
+  "item.loyellowhills.telder_steel_battle_pickaxe": "Telder Steel Battle Pickaxe",
+  "item.loyellowhills.telder_steel_sword": "Telder Steel Sword",
+  "item.loyellowhills.telder_steel_axe": "Telder Steel Axe",
+  "item.loyellowhills.telder_steel_shovel": "Telder Steel Shovel",
+  "item.loyellowhills.telder_steel_hoe": "Telder Steel Hoe",
+
+  "item.loyellowhills.ethril_pickaxe": "Ethril Pickaxe",
+  "item.loyellowhills.ethril_battle_pickaxe": "Ethril Battle Pickaxe",
+  "item.loyellowhills.ethril_sword": "Ethril Sword",
+  "item.loyellowhills.ethril_axe": "Ethril Axe",
+  "item.loyellowhills.ethril_shovel": "Ethril Shovel",
+  "item.loyellowhills.ethril_hoe": "Ethril Hoe"
 }
