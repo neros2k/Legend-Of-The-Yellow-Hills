@@ -49,12 +49,12 @@ public enum ItemRegister {
     ///////////////////////////////////////////////////////////////////////////
     // Еда
     ///////////////////////////////////////////////////////////////////////////
-    peach(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(3).build()))),
-    echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).build()))),
-    golden_echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).build()))),
+    peach(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(3).saturationMod(satMod(3.0F, 2.2F)).build()))),
+    echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 8.0F)).build()))),
+    golden_echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 10.0F)).build()))),
     /* ------------------------- */
-    peach_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(9).build()))),
-    berry_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).build()))),
+    peach_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(9).saturationMod(satMod(9.0F, 8.5F)).build()))),
+    berry_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 2.5F)).build()))),
     ///////////////////////////////////////////////////////////////////////////
     // Прочие предметы мода
     ///////////////////////////////////////////////////////////////////////////
@@ -101,5 +101,9 @@ public enum ItemRegister {
 
     public static DeferredRegister<Item> getDeferredRegister() {
         return ItemRegister.ITEM_DEFERRED_REGISTER;
+    }
+
+    public static float satMod(float nutrition, float satLevel) {
+        return satLevel/(nutrition*2);
     }
 }
