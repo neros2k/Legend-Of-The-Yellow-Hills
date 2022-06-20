@@ -1,6 +1,7 @@
 package n2k_.lotyh.item;
 import n2k_.lotyh.Main;
 import n2k_.lotyh.base.ModTier;
+import n2k_.lotyh.item.type.GlowItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,7 +43,7 @@ public enum ItemRegister {
     /* ------------------------- */
     singularity_stone(() -> new Item(new Item.Properties())),
     reality_stone(() -> new Item(new Item.Properties())),
-    soul_stone(() -> new Item(new Item.Properties())),
+    soul_stone(() -> new GlowItem(new Item.Properties(), 1.0F)),
     /* ------------------------- */
     ether_silk(() -> new Item(new Item.Properties())),
     etheroscope(() -> new Item(new Item.Properties())),
