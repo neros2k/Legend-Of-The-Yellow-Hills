@@ -1,5 +1,6 @@
 package n2k_.lotyh.item;
 import n2k_.lotyh.Main;
+import n2k_.lotyh.base.ModTier;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,19 +12,20 @@ public enum ItemRegister {
     ///////////////////////////////////////////////////////////////////////////
     // Инструменты
     ///////////////////////////////////////////////////////////////////////////
-    telder_steel_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
-    telder_steel_battle_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
-    telder_steel_sword(() -> new SwordItem(null, 0, 0, new Item.Properties())),
-    telder_steel_axe(() -> new AxeItem(null, 0, 0, new Item.Properties())),
-    telder_steel_shovel(() -> new ShovelItem(null, 0, 0, new Item.Properties())),
-    telder_steel_hoe(() -> new HoeItem(null, 0, 0, new Item.Properties())),
+    // фиксани ломание у кирок
+    telder_steel_pickaxe(() -> new PickaxeItem(ModTier.TELDER_STEEL, 3, -2.8F, new Item.Properties())),
+    //telder_steel_battle_pickaxe(() -> ),
+    telder_steel_sword(() -> new SwordItem(ModTier.TELDER_STEEL, 3, -2.4F, new Item.Properties())),
+    telder_steel_axe(() -> new AxeItem(ModTier.TELDER_STEEL, 8.0F, -3.1F, new Item.Properties())),
+    telder_steel_shovel(() -> new ShovelItem(ModTier.TELDER_STEEL, 3.5F, -3.0F, new Item.Properties())),
+    telder_steel_hoe(() -> new HoeItem(ModTier.TELDER_STEEL, 1, -1.0F, new Item.Properties())),
     /* ------------------------- */
-    ethril_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
-    ethril_battle_pickaxe(() -> new PickaxeItem(null, 0, 0, new Item.Properties())),
-    ethril_sword(() -> new SwordItem(null, 0, 0, new Item.Properties())),
-    ethril_axe(() -> new AxeItem(null, 0, 0, new Item.Properties())),
-    ethril_shovel(() -> new ShovelItem(null, 0, 0, new Item.Properties())),
-    ethril_hoe(() -> new HoeItem(null, 0, 0, new Item.Properties())),
+    ethril_pickaxe(() -> new PickaxeItem(ModTier.ETHRIL, 1, -2.8F, new Item.Properties())),
+    //ethril_battle_pickaxe(() -> ),
+    ethril_sword(() -> new SwordItem(ModTier.ETHRIL, 1, -2.4F, new Item.Properties())),
+    ethril_axe(() -> new AxeItem(ModTier.ETHRIL, 6.0F, -3.0F, new Item.Properties())),
+    ethril_shovel(() -> new ShovelItem(ModTier.ETHRIL, 1.5F, -3.0F, new Item.Properties())),
+    ethril_hoe(() -> new HoeItem(ModTier.ETHRIL, 1, -3.0F, new Item.Properties())),
     ///////////////////////////////////////////////////////////////////////////
     // Материалы
     ///////////////////////////////////////////////////////////////////////////

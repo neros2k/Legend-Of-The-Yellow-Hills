@@ -1,2 +1,2 @@
 package n2k_.lotyh.base;
-public enum ModTabs {}
+public enum ModTab {}
