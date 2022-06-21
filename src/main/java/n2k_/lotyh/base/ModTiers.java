@@ -5,7 +5,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
 import java.util.function.Supplier;
-public enum ModTier implements Tier {
+public enum ModTiers implements Tier {
     TELDER_STEEL(2, 320, 6.0F, 2.0F, 16,
             () -> Ingredient.of(ItemRegister.telder_steel_ingot.getItem())
     ),
@@ -22,7 +22,7 @@ public enum ModTier implements Tier {
     private final int ENCHANTMENT_VALUE;
     private final LazyLoadedValue<Ingredient> REPAIR_INGREDIENT;
 
-    ModTier(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
+    ModTiers(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
         this.LEVEL = level;
         this.USES = uses;
         this.SPEED = 0.0F;
