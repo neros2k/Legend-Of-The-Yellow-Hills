@@ -1,6 +1,8 @@
 package n2k_.lotyh.item;
 import n2k_.lotyh.Main;
+import n2k_.lotyh.base.ModTab;
 import n2k_.lotyh.base.ModTier;
+import n2k_.lotyh.item.type.FoilItem;
 import n2k_.lotyh.item.type.GlowItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
@@ -14,48 +16,48 @@ public enum ItemRegister {
     // Инструменты
     ///////////////////////////////////////////////////////////////////////////
     // фиксани ломание у кирок
-    telder_steel_pickaxe(() -> new PickaxeItem(ModTier.TELDER_STEEL, 3, -2.8F, new Item.Properties())),
+    telder_steel_pickaxe(() -> new PickaxeItem(ModTier.TELDER_STEEL, 3, -2.8F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
     //telder_steel_battle_pickaxe(() -> ),
-    telder_steel_sword(() -> new SwordItem(ModTier.TELDER_STEEL, 3, -2.4F, new Item.Properties())),
-    telder_steel_axe(() -> new AxeItem(ModTier.TELDER_STEEL, 8.0F, -3.1F, new Item.Properties())),
-    telder_steel_shovel(() -> new ShovelItem(ModTier.TELDER_STEEL, 3.5F, -3.0F, new Item.Properties())),
-    telder_steel_hoe(() -> new HoeItem(ModTier.TELDER_STEEL, 1, -1.0F, new Item.Properties())),
+    telder_steel_sword(() -> new SwordItem(ModTier.TELDER_STEEL, 3, -2.4F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
+    telder_steel_axe(() -> new AxeItem(ModTier.TELDER_STEEL, 8.0F, -3.1F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
+    telder_steel_shovel(() -> new ShovelItem(ModTier.TELDER_STEEL, 3.5F, -3.0F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
+    telder_steel_hoe(() -> new HoeItem(ModTier.TELDER_STEEL, 1, -1.0F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
     /* ------------------------- */
-    ethril_pickaxe(() -> new PickaxeItem(ModTier.ETHRIL, 1, -2.8F, new Item.Properties())),
+    ethril_pickaxe(() -> new PickaxeItem(ModTier.ETHRIL, 1, -2.8F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
     //ethril_battle_pickaxe(() -> ),
-    ethril_sword(() -> new SwordItem(ModTier.ETHRIL, 1, -2.4F, new Item.Properties())),
-    ethril_axe(() -> new AxeItem(ModTier.ETHRIL, 6.0F, -3.0F, new Item.Properties())),
-    ethril_shovel(() -> new ShovelItem(ModTier.ETHRIL, 1.5F, -3.0F, new Item.Properties())),
-    ethril_hoe(() -> new HoeItem(ModTier.ETHRIL, 1, -3.0F, new Item.Properties())),
+    ethril_sword(() -> new SwordItem(ModTier.ETHRIL, 1, -2.4F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
+    ethril_axe(() -> new AxeItem(ModTier.ETHRIL, 6.0F, -3.0F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
+    ethril_shovel(() -> new ShovelItem(ModTier.ETHRIL, 1.5F, -3.0F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
+    ethril_hoe(() -> new HoeItem(ModTier.ETHRIL, 1, -3.0F, new Item.Properties().tab(ModTab.tools_tab.getTab()))),
     ///////////////////////////////////////////////////////////////////////////
     // Материалы
     ///////////////////////////////////////////////////////////////////////////
-    telder_steel_ingot(() -> new Item(new Item.Properties())),
-    telder_steel_nugget(() -> new Item(new Item.Properties())),
-    ethril_ingot(() -> new Item(new Item.Properties())),
-    ethril_nugget(() -> new Item(new Item.Properties())),
+    telder_steel_ingot(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    telder_steel_nugget(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    ethril_ingot(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    ethril_nugget(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
     /* ------------------------- */
-    heavenly_shard(() -> new Item(new Item.Properties())),
-    terrestrial_shard(() -> new Item(new Item.Properties())),
-    aquatic_shard(() -> new Item(new Item.Properties())),
-    deep_shard(() -> new Item(new Item.Properties())),
-    distortion_shard(() -> new Item(new Item.Properties())),
+    heavenly_shard(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    terrestrial_shard(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    aquatic_shard(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    deep_shard(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    distortion_shard(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
     /* ------------------------- */
-    singularity_stone(() -> new Item(new Item.Properties())),
-    reality_stone(() -> new Item(new Item.Properties())),
-    soul_stone(() -> new GlowItem(new Item.Properties(), 1.0F)),
+    singularity_stone(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    reality_stone(() -> new FoilItem(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    soul_stone(() -> new GlowItem(new Item.Properties().tab(ModTab.material_tab.getTab()), 1.0F)),
     /* ------------------------- */
-    ether_silk(() -> new Item(new Item.Properties())),
-    etheroscope(() -> new Item(new Item.Properties())),
+    ether_silk(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
+    etheroscope(() -> new Item(new Item.Properties().tab(ModTab.material_tab.getTab()))),
     ///////////////////////////////////////////////////////////////////////////
     // Еда
     ///////////////////////////////////////////////////////////////////////////
-    peach(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(3).saturationMod(satMod(3.0F, 2.2F)).build()))),
-    echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 8.0F)).build()))),
-    golden_echpochmak(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 10.0F)).build()))),
+    peach(() -> new Item(new Item.Properties().tab(ModTab.food_tab.getTab()).food((new FoodProperties.Builder()).nutrition(3).saturationMod(satMod(3.0F, 2.2F)).build()))),
+    echpochmak(() -> new Item(new Item.Properties().tab(ModTab.food_tab.getTab()).food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 8.0F)).build()))),
+    golden_echpochmak(() -> new Item(new Item.Properties().tab(ModTab.food_tab.getTab()).food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 10.0F)).build()))),
     /* ------------------------- */
-    peach_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(9).saturationMod(satMod(9.0F, 8.5F)).build()))),
-    berry_jam(() -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 2.5F)).build()))),
+    peach_jam(() -> new Item(new Item.Properties().tab(ModTab.food_tab.getTab()).food((new FoodProperties.Builder()).nutrition(9).saturationMod(satMod(9.0F, 8.5F)).build()))),
+    berry_jam(() -> new Item(new Item.Properties().tab(ModTab.food_tab.getTab()).food((new FoodProperties.Builder()).nutrition(6).saturationMod(satMod(6.0F, 2.5F)).build()))),
     ///////////////////////////////////////////////////////////////////////////
     // Прочие предметы мода
     ///////////////////////////////////////////////////////////////////////////
