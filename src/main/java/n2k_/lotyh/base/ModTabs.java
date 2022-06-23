@@ -6,6 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 public class ModTabs {
+    // TODO: преобразуй в enum
     public final static CreativeModeTab TOOLS = ModTabs.createTab(ItemRegister.ethril_pickaxe, "tools_tab");
     public final static CreativeModeTab MATERIAL = ModTabs.createTab(ItemRegister.etheroscope, "material_tab");
     public final static CreativeModeTab FOOD = ModTabs.createTab(ItemRegister.echpochmak, "food_tab");
