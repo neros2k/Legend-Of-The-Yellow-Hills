@@ -35,10 +35,7 @@ public enum ItemRegister {
     interspatial_chain(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     reality_halo(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     amethyst_pendant(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    little_jar(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     wooden_mug(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    kettle(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    magic_teblecloth(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     /* ------------------------- */
     wooden_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     stone_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
@@ -79,6 +76,7 @@ public enum ItemRegister {
     /* ------------------------- */
     ether_silk(() -> new Item(new Item.Properties().tab(ModTabs.MATERIAL))),
     etheroscope(() -> new Item(new Item.Properties().tab(ModTabs.MATERIAL))),
+    little_jar(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     ///////////////////////////////////////////////////////////////////////////
     // Еда
     ///////////////////////////////////////////////////////////////////////////
