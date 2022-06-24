@@ -2,6 +2,7 @@ package n2k_.lotyh.item;
 import n2k_.lotyh.Main;
 import n2k_.lotyh.base.ModTabs;
 import n2k_.lotyh.base.ModTiers;
+import n2k_.lotyh.item.type.BattlePickaxe;
 import n2k_.lotyh.item.type.FoilItem;
 import n2k_.lotyh.item.type.GlowItem;
 import net.minecraft.world.food.FoodProperties;
@@ -37,14 +38,14 @@ public enum ItemRegister {
     amethyst_pendant(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     wooden_mug(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     /* ------------------------- */
-    wooden_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    stone_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    iron_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    diamond_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    gold_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    netherite_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    telder_steel_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
-    ethril_battle_pickaxe(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
+    wooden_battle_pickaxe(() -> new BattlePickaxe(Tiers.WOOD, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    stone_battle_pickaxe(() -> new BattlePickaxe(Tiers.STONE, 0, -0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    iron_battle_pickaxe(() -> new BattlePickaxe(Tiers.IRON, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    diamond_battle_pickaxe(() -> new BattlePickaxe(Tiers.DIAMOND, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    gold_battle_pickaxe(() -> new BattlePickaxe(Tiers.GOLD, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    netherite_battle_pickaxe(() -> new BattlePickaxe(Tiers.NETHERITE, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    telder_steel_battle_pickaxe(() -> new BattlePickaxe(ModTiers.TELDER_STEEL, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
+    ethril_battle_pickaxe(() -> new BattlePickaxe(ModTiers.ETHRIL, 0, 0.0F, new Item.Properties().tab(ModTabs.TOOLS))),
     /* ------------------------- */
     wooden_hammer(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
     stone_hammer(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
@@ -76,7 +77,7 @@ public enum ItemRegister {
     /* ------------------------- */
     ether_silk(() -> new Item(new Item.Properties().tab(ModTabs.MATERIAL))),
     etheroscope(() -> new Item(new Item.Properties().tab(ModTabs.MATERIAL))),
-    little_jar(() -> new Item(new Item.Properties().tab(ModTabs.TOOLS))),
+    little_jar(() -> new Item(new Item.Properties().tab(ModTabs.MATERIAL))),
     ///////////////////////////////////////////////////////////////////////////
     // Еда
     ///////////////////////////////////////////////////////////////////////////
