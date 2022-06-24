@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/hummer_model",
+  "textures": {
+    "layer0": "loyellowhills:item/ethril_hammer"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "loyellowhills:item/netherite_battle_pickaxe"
+  }
+}
