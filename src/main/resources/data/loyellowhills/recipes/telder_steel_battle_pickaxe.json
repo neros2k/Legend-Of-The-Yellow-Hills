@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT ",
+    " IT",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "loyellowhills:telder_steel_ingot"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:telder_steel_battle_pickaxe",
+    "count": 1
+  }
+}

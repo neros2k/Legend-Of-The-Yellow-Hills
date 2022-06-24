@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT ",
+    " IT",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:diamond_battle_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TJT",
+    "TIT",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:planks"
+    },
+    "J": {
+      "item": "minecraft:smooth_stone"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:wooden_hammer",
+    "count": 1
+  }
+}

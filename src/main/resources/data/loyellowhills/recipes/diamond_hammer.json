@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TJT",
+    "TIT",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:diamond"
+    },
+    "J": {
+      "item": "minecraft:smooth_stone"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:diamond_hammer",
+    "count": 1
+  }
+}

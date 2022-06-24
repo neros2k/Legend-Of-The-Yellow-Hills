@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "loyellowhills:ethril_ingot"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:ethril_pickaxe",
+    "count": 1
+  }
+}

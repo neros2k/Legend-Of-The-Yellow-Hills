@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TJT",
+    "TIT",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:telder_steel_ingot"
+    },
+    "J": {
+      "item": "minecraft:smooth_stone"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:telder_steel_hammer",
+    "count": 1
+  }
+}

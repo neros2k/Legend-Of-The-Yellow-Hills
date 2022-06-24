@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TJT",
+    "TIT",
+    " I "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:cobblestone"
+    },
+    "J": {
+      "item": "minecraft:smooth_stone"
+    },
+    "I": {
+      "item": "loyellowhills:stick"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:stone_hammer",
+    "count": 1
+  }
+}

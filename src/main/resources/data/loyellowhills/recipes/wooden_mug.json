@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TI",
+    "TI"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:wooden_slab"
+    }
+  },
+  "result": {
+    "item": "loyellowhills:wooden_mug",
+    "count": 3
+  }
+}
